@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:testingflutterhooks/step_1_use_stream/use_stream_home_page.dart';
+import 'package:testingflutterhooks/step_2_use_state_use_textEditingController/use_state_use_text_editing_controller_home_page.dart';
 
 void main() => runApp(const MyApp());
 
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Material App',
-      home: UseStreamHomePage(),
+      home: UseStateUseTextEditingControllerHomePage(),
     );
   }
 }
